@@ -21,8 +21,6 @@ jobs:
       - uses: "MatteoH2O1999/setup-python@v4"
         with:
           python-version: "${{ matrix.python-version }}"
-      - name: "override pip"
-        run: "pip --force-reinstall install pip==21.3.1"
       - name: "Install dependencies"
         run: "scripts/install"
       - name: "Run linting checks"
