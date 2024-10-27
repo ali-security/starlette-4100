@@ -1,5 +1,6 @@
 setuptools
 packaging
+more_itertools
 
 # Optionals
 itsdangerous
