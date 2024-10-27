@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "${{ matrix.python-version }}"
       - name: "override pip"
-        run: "pip --ignore-installed install pip==21.3.1"
+        run: "python -m pip --ignore-installed install pip==21.3.1"
       - name: "Install dependencies"
         run: "scripts/install"
       - name: "Run linting checks"
