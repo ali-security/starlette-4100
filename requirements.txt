@@ -16,7 +16,6 @@ docutils==0.18
 flake8==4.0.1
 ghp-import==2.0.2
 idna==3.3
-importlib-metadata==4.8.2
 iniconfig==1.1.1
 isort==5.10.1
 itsdangerous==2.0.1
