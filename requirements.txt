@@ -57,7 +57,6 @@ six==1.16.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
 SQLAlchemy==1.4.27
--e git+https://github.com/ali-security/starlette-1476@23f27e70a106913bc1b73a28a1b281b27182afa1#egg=starlette
 toml==0.10.2
 tqdm==4.62.3
 trio==0.19.0
