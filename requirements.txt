@@ -1,3 +1,5 @@
+more_itertools
+
 # Optionals
 itsdangerous
 jinja2
